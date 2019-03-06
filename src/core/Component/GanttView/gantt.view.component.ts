@@ -219,7 +219,7 @@ export class GanttViewComponent implements OnInit, OnChanges {
           return Math.abs((endTime - startTime)) / (1000 * 60 * 60 * 24) + 'px';
 
         case 'day':
-          return Math.abs((endTime - startTime)) / (1000 * 60 * 60 * 24) * this.col.width + 'px';
+          return Math.abs((endTime - startTime)) / (1000 * 60 * 60 * 24) * (this.col.width + 2) + 'px';
 
         case 'month':
           return Math.abs((startTime - endTime)) / (1000 * 60 * 60 * 24) * 2.25 + 'px';
@@ -241,10 +241,10 @@ export class GanttViewComponent implements OnInit, OnChanges {
           return Math.abs((yearTime - endTime)) / (1000 * 60 * 60 * 24) + 'px';
 
         case 'day':
-          return Math.abs((endTime - startTime)) / (1000 * 60 * 60 * 24) * this.col.width + 'px';
+          return Math.abs((endTime - startTime)) / (1000 * 60 * 60 * 24) * (this.col.width + 2) + 'px';
 
         case 'month':
-          return Math.abs((startTime - endTime)) / (1000 * 60 * 60 * 24) * 2.25 + 'px';
+          return Math.abs((startTime - endTime)) / (1000 * 60 * 60 * 24) * 2.3 + 'px';
 
       }
     }

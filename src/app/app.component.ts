@@ -93,7 +93,7 @@ export class AppComponent implements OnInit{
         schedule: 0.5
       }],
       min: '2018-06-25 9:00',
-      max: '2019-06-25 18:00'
+      max: '2019-05-25 18:00'
     }
   }
   genttAdd(data) {
