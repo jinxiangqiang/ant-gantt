@@ -100,10 +100,10 @@ export class AppComponent implements OnInit{
     console.log(`点击了${data}的添加`);
   }
   genttEdit(data) {
-    console.log(`点击了${data}的添加`);
+    console.log(`点击了${data}的编辑`);
   }
   genttDelete(data) {
-    console.log(`点击了${data}的添加`);
+    console.log(`点击了${data}的删除`);
   }
   collapse(data) {
     console.log(data.id)
